@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Allegro_tutorial" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Allegro_tutorial" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c17" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="../allegro/lib/liballegro_monolith-debug.dll.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Allegro_tutorial" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c17" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="../allegro/lib/liballegro_monolith.dll.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c17" />
+			<Add directory="../allegro/include" />
+		</Compiler>
+		<Unit filename="character.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="character.h" />
+		<Unit filename="crow.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="crow.h" />
+		<Unit filename="game_windows.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="game_windows.h" />
+		<Unit filename="global.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="menu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="menu.h" />
+		<Unit filename="place.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="place.h" />
+		<Unit filename="scene.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="scene.h" />
+		<Unit filename="window.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="window.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

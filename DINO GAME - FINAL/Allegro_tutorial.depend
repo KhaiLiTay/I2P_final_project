@@ -1,0 +1,1519 @@
+# depslib dependency file v1.0
+1686796720 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\algif5\src\algif.c
+	"algif.h"
+	<allegro5/allegro_primitives.h>
+	<math.h>
+
+1686796720 c:\users\taykh\desktop\final_project_bundle\final_project_template\algif5\src\algif.h
+	<allegro5/allegro5.h>
+
+1686796760 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\allegro5.h
+	"allegro.h"
+
+1687114387 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\allegro.h
+	"allegro5/base.h"
+	"allegro5/altime.h"
+	"allegro5/bitmap.h"
+	"allegro5/bitmap_draw.h"
+	"allegro5/bitmap_io.h"
+	"allegro5/bitmap_lock.h"
+	"allegro5/blender.h"
+	"allegro5/clipboard.h"
+	"allegro5/color.h"
+	"allegro5/config.h"
+	"allegro5/cpu.h"
+	"allegro5/debug.h"
+	"allegro5/display.h"
+	"allegro5/drawing.h"
+	"allegro5/error.h"
+	"allegro5/events.h"
+	"allegro5/file.h"
+	"allegro5/fixed.h"
+	"allegro5/fmaths.h"
+	"allegro5/fshook.h"
+	"allegro5/fullscreen_mode.h"
+	"allegro5/haptic.h"
+	"allegro5/joystick.h"
+	"allegro5/keyboard.h"
+	"allegro5/memory.h"
+	"allegro5/monitor.h"
+	"allegro5/mouse.h"
+	"allegro5/mouse_cursor.h"
+	"allegro5/path.h"
+	"allegro5/render_state.h"
+	"allegro5/shader.h"
+	"allegro5/system.h"
+	"allegro5/threads.h"
+	"allegro5/timer.h"
+	"allegro5/tls.h"
+	"allegro5/touch_input.h"
+	"allegro5/transformations.h"
+	"allegro5/utf8.h"
+	"allegro5/alcompat.h"
+
+1687114387 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\base.h
+	<errno.h>
+	<limits.h>
+	<limits.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<sys/types.h>
+	<fortify/fortify.h>
+	<dmalloc.h>
+	"allegro5/internal/alconfig.h"
+
+1687114388 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\internal\alconfig.h
+	"allegro5/platform/alplatf.h"
+	"allegro5/platform/alwatcom.h"
+	"allegro5/platform/almngw32.h"
+	"allegro5/platform/albcc32.h"
+	"allegro5/platform/almsvc.h"
+	"allegro5/platform/aliphonecfg.h"
+	"allegro5/platform/alosxcfg.h"
+	"allegro5/platform/alandroidcfg.h"
+	"allegro5/platform/alraspberrypicfg.h"
+	"allegro5/platform/alucfg.h"
+	"allegro5/platform/allegro_sdl_config.h"
+	"allegro5/platform/astdint.h"
+	"allegro5/platform/astdbool.h"
+
+1687114388 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\platform\alplatf.h
+
+1687114388 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\platform\alwatcom.h
+	<io.h>
+	<i86.h>
+	<conio.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1687114388 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\platform\almngw32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1687114388 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\platform\albcc32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1687114388 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\platform\almsvc.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1687114388 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\platform\aliphonecfg.h
+	<fcntl.h>
+	<unistd.h>
+
+1687114388 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\platform\alosxcfg.h
+	"allegro5/platform/alplatf.h"
+
+1687114388 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\platform\alandroidcfg.h
+
+1687114388 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\platform\alraspberrypicfg.h
+	<fcntl.h>
+	<unistd.h>
+	<sys/types.h>
+
+1687114388 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\platform\alucfg.h
+	<fcntl.h>
+	<unistd.h>
+	"alunix.h"
+	"allegro5/platform/alplatf.h"
+
+1687114388 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\platform\alunix.h
+
+1687114388 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\platform\allegro_sdl_config.h
+	<fcntl.h>
+	<unistd.h>
+
+1687114388 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\platform\astdint.h
+	<inttypes.h>
+	<stdint.h>
+	<limits.h>
+
+1687114388 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\platform\astdbool.h
+	<stdbool.h>
+
+1687114387 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\altime.h
+	"allegro5/base.h"
+
+1687114387 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\bitmap.h
+	"allegro5/color.h"
+
+1687114387 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\color.h
+	"allegro5/base.h"
+
+1687114387 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\bitmap_draw.h
+	"allegro5/bitmap.h"
+
+1687114387 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\bitmap_io.h
+	"allegro5/bitmap.h"
+	"allegro5/file.h"
+
+1687114387 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\file.h
+	"allegro5/base.h"
+	"allegro5/path.h"
+	"allegro5/utf8.h"
+
+1687114388 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\path.h
+	"allegro5/base.h"
+	"allegro5/utf8.h"
+
+1687114388 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\utf8.h
+	"allegro5/base.h"
+
+1687114387 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\bitmap_lock.h
+	"allegro5/bitmap.h"
+
+1687114387 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\blender.h
+	"allegro5/base.h"
+	"allegro5/color.h"
+
+1687114387 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\clipboard.h
+	"allegro5/base.h"
+	"allegro5/display.h"
+	"allegro5/utf8.h"
+
+1687114387 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\display.h
+	"allegro5/bitmap.h"
+	"allegro5/color.h"
+	"allegro5/events.h"
+
+1687114387 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\events.h
+	"allegro5/altime.h"
+
+1687114387 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\config.h
+	"allegro5/file.h"
+
+1687114387 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\cpu.h
+	"allegro5/base.h"
+
+1687114387 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\debug.h
+	<assert.h>
+	"allegro5/base.h"
+
+1687114387 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\drawing.h
+	"allegro5/color.h"
+
+1687114387 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\error.h
+	"allegro5/base.h"
+
+1687114387 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\fixed.h
+	"allegro5/base.h"
+
+1687114387 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\fmaths.h
+	"allegro5/base.h"
+	"allegro5/fixed.h"
+	"allegro5/inline/fmaths.inl"
+
+1687114388 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\inline\fmaths.inl
+	"allegro5/error.h"
+
+1687114387 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\fshook.h
+	"allegro5/base.h"
+	"allegro5/file.h"
+	"allegro5/path.h"
+	<sys/types.h>
+
+1687114387 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\fullscreen_mode.h
+	"allegro5/base.h"
+
+1687114387 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\haptic.h
+	"allegro5/base.h"
+	"allegro5/display.h"
+	"allegro5/events.h"
+	"allegro5/joystick.h"
+	"allegro5/keyboard.h"
+	"allegro5/mouse.h"
+	"allegro5/touch_input.h"
+
+1687114387 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\joystick.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1687114388 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\keyboard.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+	"allegro5/keycodes.h"
+
+1687114388 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\keycodes.h
+
+1687114388 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\mouse.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1687114388 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\touch_input.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1687114388 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\memory.h
+	"allegro5/base.h"
+
+1687114388 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\monitor.h
+	"allegro5/base.h"
+
+1687114388 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\mouse_cursor.h
+	"allegro5/base.h"
+
+1687114388 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\render_state.h
+	"allegro5/base.h"
+
+1687114388 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\shader.h
+	"allegro5/base.h"
+	"allegro5/transformations.h"
+
+1687114388 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\transformations.h
+	"allegro5/display.h"
+
+1687114388 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\system.h
+	"allegro5/config.h"
+	"allegro5/path.h"
+
+1687114388 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\threads.h
+	"allegro5/altime.h"
+
+1687114388 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\timer.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1687114388 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\tls.h
+	"allegro5/base.h"
+
+1687114387 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\alcompat.h
+
+1687114387 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\allegro_primitives.h
+	<allegro5/allegro.h>
+
+1686796720 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\algif5\src\bitmap.c
+	"algif.h"
+
+1686796720 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\algif5\src\gif.c
+	"algif.h"
+	<stdlib.h>
+	<string.h>
+
+1686796720 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\algif5\src\lzw.c
+	"algif.h"
+
+1686939583 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing\game_windows.c
+	"game_windows.h"
+	"global.h"
+
+1686943227 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing\character.c
+	<stdio.h>
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	"global.h"
+	"character.h"
+	"menu.h"
+
+1686943414 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing\character.h
+	"global.h"
+
+1686937531 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing\global.h
+	<stdio.h>
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	<stdlib.h>
+	<time.h>
+
+1687114387 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\allegro_font.h
+	"allegro5/allegro.h"
+
+1687114387 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\allegro_ttf.h
+	"allegro5/allegro.h"
+	"allegro5/allegro_font.h"
+
+1687114387 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\allegro_image.h
+	"allegro5/base.h"
+
+1687114387 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\allegro_audio.h
+	"allegro5/allegro.h"
+
+1687114387 c:\users\taykh\desktop\final_project_bundle\final_project_template\allegro\include\allegro5\allegro_acodec.h
+	"allegro5/allegro.h"
+	"allegro5/allegro_audio.h"
+
+1686937629 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing\main.c
+	"global.h"
+	"menu.h"
+
+1686943202 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing\menu.c
+	"menu.h"
+	"global.h"
+	"character.h"
+
+1686942300 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing\menu.h
+	"global.h"
+	"character.h"
+
+1686935583 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing\scene.c
+	"scene.h"
+	"global.h"
+
+1686943360 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing\scene.h
+	"global.h"
+	"crow.h"
+
+1686932597 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing\game_windows.h
+	"crow.h"
+	"global.h"
+	"scene.h"
+
+1686932570 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing\crow.c
+	<stdlib.h>
+	"crow.h"
+
+1686921667 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing\crow.h
+	"global.h"
+
+1686981038 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing - mix\character.c
+	<stdio.h>
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	"global.h"
+	"character.h"
+
+1686981309 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing - mix\global.h
+	<stdio.h>
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	<stdlib.h>
+	<time.h>
+
+1686980700 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing - mix\character.h
+	"global.h"
+	"menu.h"
+
+1686980970 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing - mix\menu.h
+	"global.h"
+
+1686981365 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing - mix\game_windows.c
+	"game_windows.h"
+	"global.h"
+
+1686932597 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing - mix\game_windows.h
+	"crow.h"
+	"global.h"
+	"scene.h"
+
+1686980209 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing - mix\crow.h
+	"global.h"
+
+1686943360 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing - mix\scene.h
+	"global.h"
+	"crow.h"
+
+1686937629 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing - mix\main.c
+	"global.h"
+	"menu.h"
+
+1686935583 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing - mix\scene.c
+	"scene.h"
+	"global.h"
+
+1686981251 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing - mix\menu.c
+	"menu.h"
+	"global.h"
+	"character.h"
+
+1686980209 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing - mix\crow.c
+	<stdlib.h>
+	"crow.h"
+
+1686982186 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - comment done\character.c
+	<stdio.h>
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	"global.h"
+	"character.h"
+
+1686981647 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - comment done\global.h
+	<stdio.h>
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	<stdlib.h>
+	<time.h>
+
+1686980700 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - comment done\character.h
+	"global.h"
+	"menu.h"
+
+1686980970 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - comment done\menu.h
+	"global.h"
+
+1686980209 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - comment done\crow.c
+	<stdlib.h>
+	"crow.h"
+
+1686980209 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - comment done\crow.h
+	"global.h"
+
+1686981365 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - comment done\game_windows.c
+	"game_windows.h"
+	"global.h"
+
+1686932597 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - comment done\game_windows.h
+	"crow.h"
+	"global.h"
+	"scene.h"
+
+1686943360 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - comment done\scene.h
+	"global.h"
+	"crow.h"
+
+1686981528 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - comment done\main.c
+	"global.h"
+
+1686982113 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - comment done\menu.c
+	"menu.h"
+	"global.h"
+	"character.h"
+
+1686981528 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - comment done\scene.c
+	"scene.h"
+	"global.h"
+
+1686980209 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing character\crow.c
+	<stdlib.h>
+	"crow.h"
+
+1686980209 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing character\crow.h
+	"global.h"
+
+1686981647 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing character\global.h
+	<stdio.h>
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	<stdlib.h>
+	<time.h>
+
+1686991226 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing character\game_windows.c
+	"game_windows.h"
+	"global.h"
+
+1686932597 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing character\game_windows.h
+	"crow.h"
+	"global.h"
+	"scene.h"
+
+1686943360 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing character\scene.h
+	"global.h"
+	"crow.h"
+
+1686981528 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing character\main.c
+	"global.h"
+
+1686988118 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing character\menu.c
+	"menu.h"
+	"global.h"
+	"character.h"
+
+1686980970 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing character\menu.h
+	"global.h"
+
+1686987683 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing character\character.h
+	"global.h"
+	"menu.h"
+
+1686981528 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing character\scene.c
+	"scene.h"
+	"global.h"
+
+1686991804 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing character\character.c
+	"global.h"
+	"character.h"
+
+1686980209 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing place\crow.c
+	<stdlib.h>
+	"crow.h"
+
+1686980209 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing place\crow.h
+	"global.h"
+
+1687005030 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing place\global.h
+	<stdio.h>
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	<stdlib.h>
+	<time.h>
+
+1686981528 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing place\main.c
+	"global.h"
+
+1687004165 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing place\menu.c
+	"menu.h"
+	"global.h"
+	"character.h"
+	"place.h"
+
+1686980970 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing place\menu.h
+	"global.h"
+
+1687006190 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing place\character.h
+	"global.h"
+	"menu.h"
+
+1687005613 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing place\scene.c
+	"scene.h"
+	"global.h"
+
+1686943360 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing place\scene.h
+	"global.h"
+	"crow.h"
+
+1687008876 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing place\game_windows.c
+	"game_windows.h"
+	"global.h"
+	"place.h"
+
+1686932597 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing place\game_windows.h
+	"crow.h"
+	"global.h"
+	"scene.h"
+
+1687006190 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing place\character.c
+	"global.h"
+	"character.h"
+	"place.h"
+
+1686995930 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing place\place.h
+	"global.h"
+	"menu.h"
+
+1687007866 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing place\place.c
+	"global.h"
+	"place.h"
+	"character.h"
+	"game_windows.h"
+	<allegro5/allegro_primitives.h>
+
+1686980209 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing music\crow.c
+	<stdlib.h>
+	"crow.h"
+
+1686980209 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing music\crow.h
+	"global.h"
+
+1687013509 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing music\global.h
+	<stdio.h>
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	<stdlib.h>
+	<time.h>
+
+1686981528 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing music\main.c
+	"global.h"
+
+1687018410 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing music\menu.c
+	"menu.h"
+	"global.h"
+	"character.h"
+	"place.h"
+
+1686980970 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing music\menu.h
+	"global.h"
+
+1687016489 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing music\character.h
+	"global.h"
+	"menu.h"
+
+1686995930 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing music\place.h
+	"global.h"
+	"menu.h"
+
+1687018537 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing music\place.c
+	"global.h"
+	"place.h"
+	"character.h"
+	"game_windows.h"
+	<allegro5/allegro_primitives.h>
+
+1686932597 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing music\game_windows.h
+	"crow.h"
+	"global.h"
+	"scene.h"
+
+1686943360 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing music\scene.h
+	"global.h"
+	"crow.h"
+
+1687018931 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing music\scene.c
+	"scene.h"
+	"global.h"
+
+1687017790 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing music\game_windows.c
+	"game_windows.h"
+	"global.h"
+	"place.h"
+	<allegro5/allegro_font.h>
+
+1687019944 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing music\character.c
+	"global.h"
+	"character.h"
+	"place.h"
+
+1687019944 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing mix\character.c
+	"global.h"
+	"character.h"
+	"place.h"
+
+1687025779 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing mix\global.h
+	<stdio.h>
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	<stdlib.h>
+	<time.h>
+
+1687016489 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing mix\character.h
+	"global.h"
+	"menu.h"
+
+1686980970 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing mix\menu.h
+	"global.h"
+
+1686995930 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing mix\place.h
+	"global.h"
+	"menu.h"
+
+1686981528 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing mix\main.c
+	"global.h"
+
+1687018410 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing mix\menu.c
+	"menu.h"
+	"global.h"
+	"character.h"
+	"place.h"
+
+1687018537 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing mix\place.c
+	"global.h"
+	"place.h"
+	"character.h"
+	"game_windows.h"
+	<allegro5/allegro_primitives.h>
+
+1686932597 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing mix\game_windows.h
+	"crow.h"
+	"global.h"
+	"scene.h"
+
+1687026050 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing mix\crow.h
+	"global.h"
+
+1686943360 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing mix\scene.h
+	"global.h"
+	"crow.h"
+
+1687026778 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing mix\crow.c
+	<stdlib.h>
+	"crow.h"
+
+1687027589 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing mix\game_windows.c
+	"game_windows.h"
+	"global.h"
+	"place.h"
+	"crow.h"
+	<allegro5/allegro_font.h>
+
+1687026661 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing mix\scene.c
+	"scene.h"
+	"global.h"
+
+1687019944 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing random\character.c
+	"global.h"
+	"character.h"
+	"place.h"
+
+1687030621 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing random\global.h
+	<stdio.h>
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	<stdlib.h>
+	<time.h>
+
+1687016489 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing random\character.h
+	"global.h"
+	"menu.h"
+
+1686980970 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing random\menu.h
+	"global.h"
+
+1686995930 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing random\place.h
+	"global.h"
+	"menu.h"
+
+1687026778 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing random\crow.c
+	<stdlib.h>
+	"crow.h"
+
+1687026050 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing random\crow.h
+	"global.h"
+
+1687027589 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing random\game_windows.c
+	"game_windows.h"
+	"global.h"
+	"place.h"
+	"crow.h"
+	<allegro5/allegro_font.h>
+
+1686932597 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing random\game_windows.h
+	"crow.h"
+	"global.h"
+	"scene.h"
+
+1686943360 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing random\scene.h
+	"global.h"
+	"crow.h"
+
+1686981528 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing random\main.c
+	"global.h"
+
+1687018410 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing random\menu.c
+	"menu.h"
+	"global.h"
+	"character.h"
+	"place.h"
+
+1687018537 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing random\place.c
+	"global.h"
+	"place.h"
+	"character.h"
+	"game_windows.h"
+	<allegro5/allegro_primitives.h>
+
+1687071847 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing random\scene.c
+	"scene.h"
+	"global.h"
+
+1687077181 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing background\character.c
+	"global.h"
+	"character.h"
+	"place.h"
+
+1687076158 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing background\global.h
+	<stdio.h>
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	<stdlib.h>
+	<time.h>
+
+1687016489 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing background\character.h
+	"global.h"
+	"menu.h"
+
+1686980970 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing background\menu.h
+	"global.h"
+
+1686995930 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing background\place.h
+	"global.h"
+	"menu.h"
+
+1687026778 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing background\crow.c
+	<stdlib.h>
+	"crow.h"
+
+1687026050 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing background\crow.h
+	"global.h"
+
+1687076271 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing background\game_windows.c
+	"game_windows.h"
+	"global.h"
+	"place.h"
+	"crow.h"
+	<allegro5/allegro_font.h>
+
+1686932597 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing background\game_windows.h
+	"crow.h"
+	"global.h"
+	"scene.h"
+
+1686943360 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing background\scene.h
+	"global.h"
+	"crow.h"
+
+1687083296 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing background\main.c
+	"global.h"
+
+1687077401 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing background\menu.c
+	"menu.h"
+	"global.h"
+	"character.h"
+	"place.h"
+
+1687082815 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing background\place.c
+	"global.h"
+	"place.h"
+	"character.h"
+	"game_windows.h"
+	<allegro5/allegro_primitives.h>
+
+1687071847 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing background\scene.c
+	"scene.h"
+	"global.h"
+
+1687081769 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing background\window.c
+	"global.h"
+	"window.h"
+	"menu.h"
+
+1687079837 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - editing background\window.h
+
+1687077182 source:c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\dino game - background half done\character.c
+	"global.h"
+	"character.h"
+	"place.h"
+
+1687094268 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\dino game - background half done\global.h
+	<stdio.h>
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	<stdlib.h>
+	<time.h>
+
+1686986502 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\allegro.h
+	"allegro5/base.h"
+	"allegro5/altime.h"
+	"allegro5/bitmap.h"
+	"allegro5/bitmap_draw.h"
+	"allegro5/bitmap_io.h"
+	"allegro5/bitmap_lock.h"
+	"allegro5/blender.h"
+	"allegro5/clipboard.h"
+	"allegro5/color.h"
+	"allegro5/config.h"
+	"allegro5/cpu.h"
+	"allegro5/debug.h"
+	"allegro5/display.h"
+	"allegro5/drawing.h"
+	"allegro5/error.h"
+	"allegro5/events.h"
+	"allegro5/file.h"
+	"allegro5/fixed.h"
+	"allegro5/fmaths.h"
+	"allegro5/fshook.h"
+	"allegro5/fullscreen_mode.h"
+	"allegro5/haptic.h"
+	"allegro5/joystick.h"
+	"allegro5/keyboard.h"
+	"allegro5/memory.h"
+	"allegro5/monitor.h"
+	"allegro5/mouse.h"
+	"allegro5/mouse_cursor.h"
+	"allegro5/path.h"
+	"allegro5/render_state.h"
+	"allegro5/shader.h"
+	"allegro5/system.h"
+	"allegro5/threads.h"
+	"allegro5/timer.h"
+	"allegro5/tls.h"
+	"allegro5/touch_input.h"
+	"allegro5/transformations.h"
+	"allegro5/utf8.h"
+	"allegro5/alcompat.h"
+
+1686986502 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\base.h
+	<errno.h>
+	<limits.h>
+	<limits.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<sys/types.h>
+	<fortify/fortify.h>
+	<dmalloc.h>
+	"allegro5/internal/alconfig.h"
+
+1686986503 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\internal\alconfig.h
+	"allegro5/platform/alplatf.h"
+	"allegro5/platform/alwatcom.h"
+	"allegro5/platform/almngw32.h"
+	"allegro5/platform/albcc32.h"
+	"allegro5/platform/almsvc.h"
+	"allegro5/platform/aliphonecfg.h"
+	"allegro5/platform/alosxcfg.h"
+	"allegro5/platform/alandroidcfg.h"
+	"allegro5/platform/alraspberrypicfg.h"
+	"allegro5/platform/alucfg.h"
+	"allegro5/platform/allegro_sdl_config.h"
+	"allegro5/platform/astdint.h"
+	"allegro5/platform/astdbool.h"
+
+1686986503 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\platform\alplatf.h
+
+1686986503 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\platform\alwatcom.h
+	<io.h>
+	<i86.h>
+	<conio.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1686986503 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\platform\almngw32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1686986503 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\platform\albcc32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1686986503 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\platform\almsvc.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1686986503 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\platform\aliphonecfg.h
+	<fcntl.h>
+	<unistd.h>
+
+1686986503 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\platform\alosxcfg.h
+	"allegro5/platform/alplatf.h"
+
+1686986503 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\platform\alandroidcfg.h
+
+1686986503 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\platform\alraspberrypicfg.h
+	<fcntl.h>
+	<unistd.h>
+	<sys/types.h>
+
+1686986503 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\platform\alucfg.h
+	<fcntl.h>
+	<unistd.h>
+	"alunix.h"
+	"allegro5/platform/alplatf.h"
+
+1686986503 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\platform\alunix.h
+
+1686986503 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\platform\allegro_sdl_config.h
+	<fcntl.h>
+	<unistd.h>
+
+1686986504 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\platform\astdint.h
+	<inttypes.h>
+	<stdint.h>
+	<limits.h>
+
+1686986504 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\platform\astdbool.h
+	<stdbool.h>
+
+1686986502 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\altime.h
+	"allegro5/base.h"
+
+1686986502 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\bitmap.h
+	"allegro5/color.h"
+
+1686986502 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\color.h
+	"allegro5/base.h"
+
+1686986502 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\bitmap_draw.h
+	"allegro5/bitmap.h"
+
+1686986502 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\bitmap_io.h
+	"allegro5/bitmap.h"
+	"allegro5/file.h"
+
+1686986502 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\file.h
+	"allegro5/base.h"
+	"allegro5/path.h"
+	"allegro5/utf8.h"
+
+1686986503 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\path.h
+	"allegro5/base.h"
+	"allegro5/utf8.h"
+
+1686986503 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\utf8.h
+	"allegro5/base.h"
+
+1686986502 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\bitmap_lock.h
+	"allegro5/bitmap.h"
+
+1686986502 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\blender.h
+	"allegro5/base.h"
+	"allegro5/color.h"
+
+1686986502 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\clipboard.h
+	"allegro5/base.h"
+	"allegro5/display.h"
+	"allegro5/utf8.h"
+
+1686986502 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\display.h
+	"allegro5/bitmap.h"
+	"allegro5/color.h"
+	"allegro5/events.h"
+
+1686986502 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\events.h
+	"allegro5/altime.h"
+
+1686986502 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\config.h
+	"allegro5/file.h"
+
+1686986502 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\cpu.h
+	"allegro5/base.h"
+
+1686986502 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\debug.h
+	<assert.h>
+	"allegro5/base.h"
+
+1686986502 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\drawing.h
+	"allegro5/color.h"
+
+1686986502 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\error.h
+	"allegro5/base.h"
+
+1686986502 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\fixed.h
+	"allegro5/base.h"
+
+1686986502 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\fmaths.h
+	"allegro5/base.h"
+	"allegro5/fixed.h"
+	"allegro5/inline/fmaths.inl"
+
+1686986503 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\inline\fmaths.inl
+	"allegro5/error.h"
+
+1686986502 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\fshook.h
+	"allegro5/base.h"
+	"allegro5/file.h"
+	"allegro5/path.h"
+	<sys/types.h>
+
+1686986502 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\fullscreen_mode.h
+	"allegro5/base.h"
+
+1686986502 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\haptic.h
+	"allegro5/base.h"
+	"allegro5/display.h"
+	"allegro5/events.h"
+	"allegro5/joystick.h"
+	"allegro5/keyboard.h"
+	"allegro5/mouse.h"
+	"allegro5/touch_input.h"
+
+1686986502 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\joystick.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1686986502 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\keyboard.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+	"allegro5/keycodes.h"
+
+1686986502 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\keycodes.h
+
+1686986503 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\mouse.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1686986503 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\touch_input.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1686986502 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\memory.h
+	"allegro5/base.h"
+
+1686986503 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\monitor.h
+	"allegro5/base.h"
+
+1686986503 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\mouse_cursor.h
+	"allegro5/base.h"
+
+1686986503 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\render_state.h
+	"allegro5/base.h"
+
+1686986503 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\shader.h
+	"allegro5/base.h"
+	"allegro5/transformations.h"
+
+1686986503 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\transformations.h
+	"allegro5/display.h"
+
+1686986503 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\system.h
+	"allegro5/config.h"
+	"allegro5/path.h"
+
+1686986503 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\threads.h
+	"allegro5/altime.h"
+
+1686986503 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\timer.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1686986503 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\tls.h
+	"allegro5/base.h"
+
+1686986502 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\alcompat.h
+
+1686986502 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\allegro_font.h
+	"allegro5/allegro.h"
+
+1686986502 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\allegro_ttf.h
+	"allegro5/allegro.h"
+	"allegro5/allegro_font.h"
+
+1686986502 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\allegro_image.h
+	"allegro5/base.h"
+
+1686986502 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\allegro_audio.h
+	"allegro5/allegro.h"
+
+1686986502 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\allegro_acodec.h
+	"allegro5/allegro.h"
+	"allegro5/allegro_audio.h"
+
+1687016490 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\dino game - background half done\character.h
+	"global.h"
+	"menu.h"
+
+1687094230 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\dino game - background half done\menu.h
+	"global.h"
+
+1686995932 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\dino game - background half done\place.h
+	"global.h"
+	"menu.h"
+
+1687026780 source:c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\dino game - background half done\crow.c
+	<stdlib.h>
+	"crow.h"
+
+1687026052 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\dino game - background half done\crow.h
+	"global.h"
+
+1687097070 source:c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\dino game - background half done\game_windows.c
+	"game_windows.h"
+	"global.h"
+	"place.h"
+	"crow.h"
+	<allegro5/allegro_font.h>
+
+1686932598 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\dino game - background half done\game_windows.h
+	"crow.h"
+	"global.h"
+	"scene.h"
+
+1686943362 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\dino game - background half done\scene.h
+	"global.h"
+	"crow.h"
+
+1687089676 source:c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\dino game - background half done\main.c
+	"global.h"
+
+1687095972 source:c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\dino game - background half done\menu.c
+	"menu.h"
+	"global.h"
+	"character.h"
+	"place.h"
+
+1687095472 source:c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\dino game - background half done\place.c
+	"global.h"
+	"place.h"
+	"character.h"
+	"game_windows.h"
+	<allegro5/allegro_primitives.h>
+
+1686986502 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\allegro\include\allegro5\allegro_primitives.h
+	<allegro5/allegro.h>
+
+1687096413 source:c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\dino game - background half done\scene.c
+	"scene.h"
+	"global.h"
+
+1687091148 source:c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\dino game - background half done\window.c
+
+1687079838 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\dino game - background half done\window.h
+
+1687077182 source:c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\dino game - 34\character.c
+	"global.h"
+	"character.h"
+	"place.h"
+
+1687097716 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\dino game - 34\global.h
+	<stdio.h>
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	<stdlib.h>
+	<time.h>
+
+1687016490 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\dino game - 34\character.h
+	"global.h"
+	"menu.h"
+
+1687094230 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\dino game - 34\menu.h
+	"global.h"
+
+1686995932 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\dino game - 34\place.h
+	"global.h"
+	"menu.h"
+
+1687026780 source:c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\dino game - 34\crow.c
+	<stdlib.h>
+	"crow.h"
+
+1687026052 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\dino game - 34\crow.h
+	"global.h"
+
+1687097070 source:c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\dino game - 34\game_windows.c
+	"game_windows.h"
+	"global.h"
+	"place.h"
+	"crow.h"
+	<allegro5/allegro_font.h>
+
+1686932598 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\dino game - 34\game_windows.h
+	"crow.h"
+	"global.h"
+	"scene.h"
+
+1686943362 c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\dino game - 34\scene.h
+	"global.h"
+	"crow.h"
+
+1687089676 source:c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\dino game - 34\main.c
+	"global.h"
+
+1687095472 source:c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\dino game - 34\place.c
+	"global.h"
+	"place.h"
+	"character.h"
+	"game_windows.h"
+	<allegro5/allegro_primitives.h>
+
+1687096413 source:c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\dino game - 34\scene.c
+	"scene.h"
+	"global.h"
+
+1687091148 source:c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\dino game - 34\window.c
+
+1687100410 source:c:\users\tan jing ting\downloads\final_project_bundle (3)\final_project_bundle\final_project_template\dino game - 34\menu.c
+	"menu.h"
+	"global.h"
+	"character.h"
+	"place.h"
+
+1687113726 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - semi final\character.c
+	"global.h"
+	"character.h"
+	"place.h"
+
+1687108999 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - semi final\global.h
+	<stdio.h>
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	<stdlib.h>
+	<time.h>
+
+1687108998 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - semi final\character.h
+	"global.h"
+	"menu.h"
+
+1687108999 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - semi final\menu.h
+	"global.h"
+
+1687109000 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - semi final\place.h
+	"global.h"
+	"menu.h"
+
+1687108999 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - semi final\crow.c
+	<stdlib.h>
+	"crow.h"
+
+1687108999 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - semi final\crow.h
+	"global.h"
+
+1687113726 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - semi final\game_windows.c
+	"game_windows.h"
+	"global.h"
+	"place.h"
+	"crow.h"
+	<allegro5/allegro_font.h>
+
+1687108999 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - semi final\game_windows.h
+	"crow.h"
+	"global.h"
+	"scene.h"
+
+1687109000 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - semi final\scene.h
+	"global.h"
+	"crow.h"
+
+1687113726 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - semi final\place.c
+	"global.h"
+	"place.h"
+	"character.h"
+	"game_windows.h"
+	<allegro5/allegro_primitives.h>
+
+1687113726 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - semi final\scene.c
+	"scene.h"
+	"global.h"
+
+1687110738 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - semi final\main.c
+	"global.h"
+
+1687113805 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - semi final\menu.c
+	"menu.h"
+	"global.h"
+	"character.h"
+	"place.h"
+	"window.h"
+
+1687113130 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - semi final\window.c
+	"global.h"
+	"window.h"
+	"menu.h"
+
+1687109001 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - semi final\window.h
+
+1687119855 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - final\character.c
+	"global.h"
+	"character.h"
+	"place.h"
+
+1687119855 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - final\global.h
+	<stdio.h>
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	<stdlib.h>
+	<time.h>
+
+1687108998 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - final\character.h
+	"global.h"
+	"menu.h"
+
+1687108999 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - final\menu.h
+	"global.h"
+
+1687109000 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - final\place.h
+	"global.h"
+	"menu.h"
+
+1687108999 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - final\crow.c
+	<stdlib.h>
+	"crow.h"
+
+1687108999 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - final\crow.h
+	"global.h"
+
+1687120807 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - final\game_windows.c
+	"game_windows.h"
+	"global.h"
+	"place.h"
+	"crow.h"
+
+1687108999 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - final\game_windows.h
+	"crow.h"
+	"global.h"
+	"scene.h"
+
+1687109000 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - final\scene.h
+	"global.h"
+	"crow.h"
+
+1687119855 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - final\main.c
+	"global.h"
+
+1687119855 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - final\menu.c
+	"menu.h"
+	"global.h"
+	"character.h"
+	"place.h"
+	"window.h"
+
+1687109001 c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - final\window.h
+
+1687119855 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - final\place.c
+	"global.h"
+	"place.h"
+	"character.h"
+	"game_windows.h"
+
+1687119855 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - final\scene.c
+	"scene.h"
+	"global.h"
+
+1687120917 source:c:\users\taykh\desktop\final_project_bundle\final_project_template\dino game - final\window.c
+	"global.h"
+	"window.h"
+	"menu.h"
+
